@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Obligatorio">
+      <UniqueIdentifier>{288f1f99-c3c9-4721-83c2-89f1e1834f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obligatorio\Pruebas">
+      <UniqueIdentifier>{ec6ed5e1-1060-4607-b4f7-9efbc68609a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obligatorio\Interfaces">
+      <UniqueIdentifier>{2a4b271d-48c4-419b-ad77-37e36699f80c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementacion">
+      <UniqueIdentifier>{5f63c92d-1635-4d7e-a513-4bf82e999fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementacion\Dominio">
+      <UniqueIdentifier>{67964d21-2968-4051-9d4b-709e54193c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementacion\TADS">
+      <UniqueIdentifier>{5c2afaa3-877c-413d-a22c-dee7ecf1574d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementacion\TADS\AVL">
+      <UniqueIdentifier>{1ae2b988-4b49-45c9-b598-dfe12a6dcb24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementacion\TADS\TABLA">
+      <UniqueIdentifier>{332f2bb1-6d97-413a-ae4b-b31d926dfbae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementacion\TADS\LISTA">
+      <UniqueIdentifier>{78cf707e-a8bf-4359-a258-2121f1c98540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementacion\Comparadores">
+      <UniqueIdentifier>{8775bd9e-18ca-4099-aaaf-407280031384}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CasoDePrueba.cpp">
+      <Filter>Obligatorio\Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasMock.cpp">
+      <Filter>Obligatorio\Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Implementacion</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema.cpp">
+      <Filter>Implementacion</Filter>
+    </ClCompile>
+    <ClCompile Include="Ciudad.cpp">
+      <Filter>Implementacion\Dominio</Filter>
+    </ClCompile>
+    <ClCompile Include="AVLImp.cpp">
+      <Filter>Implementacion\TADS\AVL</Filter>
+    </ClCompile>
+    <ClCompile Include="IteradorAVL.cpp">
+      <Filter>Implementacion\TADS\AVL</Filter>
+    </ClCompile>
+    <ClCompile Include="Excursion.cpp">
+      <Filter>Implementacion\Dominio</Filter>
+    </ClCompile>
+    <ClCompile Include="Cliente.cpp">
+      <Filter>Implementacion\Dominio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CasoDePrueba.h">
+      <Filter>Obligatorio\Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasMock.h">
+      <Filter>Obligatorio\Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="ICiudad.h">
+      <Filter>Obligatorio\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IExcursion.h">
+      <Filter>Obligatorio\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ICliente.h">
+      <Filter>Obligatorio\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IRecorrido.h">
+      <Filter>Obligatorio\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ISistema.h">
+      <Filter>Obligatorio\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="TipoTransporte.h">
+      <Filter>Obligatorio\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Sistema.h">
+      <Filter>Implementacion</Filter>
+    </ClInclude>
+    <ClInclude Include="Ciudad.h">
+      <Filter>Implementacion\Dominio</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoLista.h">
+      <Filter>Implementacion\TADS</Filter>
+    </ClInclude>
+    <ClInclude Include="AVL.h">
+      <Filter>Implementacion\TADS\AVL</Filter>
+    </ClInclude>
+    <ClInclude Include="AVLImp.h">
+      <Filter>Implementacion\TADS\AVL</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoAVL.h">
+      <Filter>Implementacion\TADS\AVL</Filter>
+    </ClInclude>
+    <ClInclude Include="IteradorAVL.h">
+      <Filter>Implementacion\TADS\AVL</Filter>
+    </ClInclude>
+    <ClInclude Include="Excursion.h">
+      <Filter>Implementacion\Dominio</Filter>
+    </ClInclude>
+    <ClInclude Include="Cliente.h">
+      <Filter>Implementacion\Dominio</Filter>
+    </ClInclude>
+    <ClInclude Include="ComparacionCiudad.h">
+      <Filter>Implementacion\Comparadores</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
