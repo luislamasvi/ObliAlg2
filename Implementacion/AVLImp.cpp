@@ -170,7 +170,7 @@ void AVLImp<T>::Borrar(const T &e, Puntero<NodoAVL<T>> &r){
 				r->dato = ptrMax->dato;
 				BorrarMayor(r->izq);
 				if(varioH)
-					BalanceoI(r);
+					//BalanceoI(r);
 			}
 			else if(r->izq != nullptr){
 				r = r->izq;

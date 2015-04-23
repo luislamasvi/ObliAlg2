@@ -1,0 +1,28 @@
+﻿Compilación iniciada a las 23/04/2015 10:09:41 a. m..
+     1>Proyecto "C:\Users\Nacho\Documents\GitHub\obligatorioA2\ObliAlg2\Implementacion\Obligatorio.vcxproj" en el nodo 2 (Rebuild destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\Framework /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AVLImp.cpp CasoDePrueba.cpp Ciudad.cpp Cliente.cpp Excursion.cpp IteradorAVL.cpp PruebasMock.cpp main.cpp Sistema.cpp
+         AVLImp.cpp
+         CasoDePrueba.cpp
+         Ciudad.cpp
+         Cliente.cpp
+         Excursion.cpp
+         IteradorAVL.cpp
+         PruebasMock.cpp
+         main.cpp
+         Sistema.cpp
+     1>c:\users\nacho\documents\github\obligatorioa2\oblialg2\implementacion\sistema.cpp(16): error C2512: 'AVLImp<T>' : no hay disponible un constructor predeterminado adecuado
+                 with
+                 [
+                     T=Puntero<Excursion>
+                 ]
+     1>c:\users\nacho\documents\github\obligatorioa2\oblialg2\implementacion\sistema.cpp(17): error C2512: 'AVLImp<T>' : no hay disponible un constructor predeterminado adecuado
+                 with
+                 [
+                     T=Puntero<Cliente>
+                 ]
+     1>Compilación del proyecto terminada "C:\Users\Nacho\Documents\GitHub\obligatorioA2\ObliAlg2\Implementacion\Obligatorio.vcxproj" (Rebuild destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:05.58
